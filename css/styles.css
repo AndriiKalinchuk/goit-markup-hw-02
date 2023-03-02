@@ -1,5 +1,14 @@
 :root {
-    --accent-color: #404BBF;
+    --title-color: #2E2F42;   
+    --active-color: #404BBF;
+ }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1,5;
+    color: #434455;
 }
 
 .list {
@@ -10,48 +19,46 @@
     text-decoration: none;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1,5;
+.part-logo {
+    color: #4D5AE5;
 }
 
-<!--HEADER-->
-
-.page-header {
+.part-studio-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
 }
-
-.page-nav {
-}
-
-.logo=link {
-}
-
 
 .menu-link {
     font-weight: 500;
-    color: #2E2F42;
 }
 
-.menu-link:active {
-    color: var(--accent-color) ;
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--active-color) ;
 }
 
 .email {
     font-style: normal;
-    font-weight: 400;
     color: #434455;
 }
 
-.email:active {
-    color: var(--accent-color);
+.email:hover,
+.email:focus {
+    color: var(--active-color);
 }
 
 .phone-number {
     font-style: normal;
-    font-weight: 400;
     color: #434455;
+}
+.phone-number:hover,
+.phone-number:focus {
+    color: var(--active-color);
 }
 
 .modal-btn {
@@ -62,9 +69,9 @@ body {
     cursor: pointer;  
 }
 
-
-.modal-btn:active {
-    background: var(--accent-color);
+.modal-btn:hover,
+.modal-btn:focus {
+    background: var(--active-color);
 }
 
 .main-title {
@@ -75,19 +82,14 @@ body {
 }
 
 .hero-section {
-    background: #2E2F42;
+    background: var(--title-color);
 }
 
 .definition {
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
-    color: #2E2F42;
-}
-
-.description {
-    font-weight: 400;
-    color: #434455;
+    color: var(--title-color);
 }
 
 .subtitle {
@@ -95,11 +97,10 @@ body {
     font-size: 36px;
     line-height: 1,11;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .text-footer {
-    font-weight: 400;
     color: #E7E9FC;
 }
 .service-btn {
@@ -116,7 +117,8 @@ body {
     cursor: pointer;
 }
 
-.service-btn:active {
+.service-btn:hover,
+.service-btn:focus {
     color: #FFFFFF;
-    background: var(--accent-color);
+    background: var(--active-color);
 }
