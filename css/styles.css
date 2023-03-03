@@ -1,14 +1,19 @@
 :root {
+    --main-color: #434455;
     --title-color: #2E2F42;   
     --active-color: #404BBF;
+    --vari-color: #4D5AE5;
+    --border-color: #E7E9FC;
+    --white-color: #ffffff;
+    --dgr-servise-btn:  #F4F4FD;
  }
-
+ 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     letter-spacing: 0.02em;
-    line-height: 1,5;
-    color: #434455;
+    line-height: 1.5;
+    color: var(--main-color);
 }
 
 .list {
@@ -20,20 +25,21 @@ body {
 }
 
 .part-logo {
-    color: #4D5AE5;
+    color: var(--vari-color);
 }
 
-.part-studio-logo {
+.header-studio-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,33;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
 }
 
 .menu-link {
+    color: var(--title-color);
     font-weight: 500;
 }
 
@@ -44,7 +50,7 @@ body {
 
 .email {
     font-style: normal;
-    color: #434455;
+    color: var(--main-color);
 }
 
 .email:hover,
@@ -54,7 +60,7 @@ body {
 
 .phone-number {
     font-style: normal;
-    color: #434455;
+    color: var(--main-color);
 }
 .phone-number:hover,
 .phone-number:focus {
@@ -63,9 +69,11 @@ body {
 
 .modal-btn {
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color: var(--white-color);
+    background: var(--vari-color);
+    border-radius: 4px;    
     cursor: pointer;  
 }
 
@@ -77,8 +85,8 @@ body {
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
-    color: #FFFFFF;
+    line-height: 1.07;
+    color: var(--white-color);
 }
 
 .bgr {
@@ -88,37 +96,47 @@ body {
 .definition {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     color: var(--title-color);
 }
 
 .subtitle {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     text-transform: capitalize;
     color: var(--title-color);
 }
 
-.text-footer {
-    color: #E7E9FC;
-}
 .service-btn {
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
+
     font-weight: 500;
+    line-height: 1.5;
     display: flex;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    color: var(--vari-color);
+    background: var(--dgr-servise-btn);
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     cursor: pointer;
 }
 
 .service-btn:hover,
 .service-btn:focus {
-    color: #FFFFFF;
+    color: var(--white-color);
     background: var(--active-color);
+}
+
+.footer-studio-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.text-footer {
+    color: var(--border-color);
 }
