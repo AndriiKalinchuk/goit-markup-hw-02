@@ -34,7 +34,7 @@ body {
     color: var(--vari-color);
 }
 
-.header-studio-logo {
+.studio-logo-h {
     color: var(--title-color);
 }
 
@@ -127,7 +127,7 @@ body {
     background: var(--active-color);
 }
 
-.footer-studio-logo {
+.studio-logo-f {
     color: var(--dgr-servise-btn);
 }
 
