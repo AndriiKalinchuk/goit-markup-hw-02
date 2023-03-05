@@ -24,17 +24,17 @@ body {
     text-decoration: none;
 }
 
-.part-logo {
-    color: var(--vari-color);
-}
-
-.header-studio-logo {
+.logotype {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--vari-color);
+}
+
+.header-studio-logo {
     color: var(--title-color);
 }
 
@@ -128,15 +128,9 @@ body {
 }
 
 .footer-studio-logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--white-color);
+    color: var(--dgr-servise-btn);
 }
 
-.text-footer {
+.text-footer { 
     color: var(--border-color);
 }
