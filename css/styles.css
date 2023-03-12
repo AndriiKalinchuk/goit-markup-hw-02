@@ -48,6 +48,10 @@ ul {
   color: var(--pressed-state-color);
 }
 
+.site-nav .link.current {
+  color: var(--pressed-state-color);
+}
+
 .contacts .link {
   font-style: normal;
   color: var(--text-color);
@@ -58,18 +62,33 @@ ul {
   color: var(--pressed-state-color);
 }
 
-.modal-btn {
+.button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white-color);
-  background: var(--primary-brand-color);
   border-radius: 4px;
   cursor: pointer;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.button.primary {
+  color: var(--white-color);
+  background: var(--primary-brand-color);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background: var(--pressed-state-color);
+}
+
+.button.secondary {
+  color: var(--primary-brand-color);
+  background: var(--light-color);
+  border: 1px solid var(--accent-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--white-color);
   background: var(--pressed-state-color);
 }
 
@@ -97,24 +116,6 @@ ul {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--dark-color);
-}
-
-.service-btn {
-  font-weight: 500;
-  line-height: 1.5;
-  display: flex;
-  letter-spacing: 0.04em;
-  color: var(--primary-brand-color);
-  background: var(--light-color);
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.service-btn:hover,
-.service-btn:focus {
-  color: var(--white-color);
-  background: var(--pressed-state-color);
 }
 
 .studio-footer {
