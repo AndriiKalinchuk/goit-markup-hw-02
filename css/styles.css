@@ -1,136 +1,126 @@
 :root {
-    --main-color: #434455;
-    --title-color: #2E2F42;   
-    --active-color: #404BBF;
-    --vari-color: #4D5AE5;
-    --border-color: #E7E9FC;
-    --white-color: #ffffff;
-    --dgr-servise-btn:  #F4F4FD;
- }
- 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: var(--main-color);
+  --text-color: #434455;
+  --dark-color: #2e2f42;
+  --pressed-state-color: #404bbf;
+  --primary-brand-color: #4d5ae5;
+  --accent-color: #e7e9fc;
+  --white-color: #ffffff;
+  --light-color: #f4f4fd;
 }
 
-.list {
-    list-style: none;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logotype {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--vari-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
 }
 
-.studio-logo-h {
-    color: var(--title-color);
+.studio-header {
+  color: var(--dark-color);
 }
 
-.menu-link {
-    color: var(--title-color);
-    font-weight: 500;
+.site-nav .link {
+  color: var(--dark-color);
+  font-weight: 500;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: var(--active-color) ;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--pressed-state-color);
 }
 
-.email {
-    font-style: normal;
-    color: var(--main-color);
+.contacts .link {
+  font-style: normal;
+  color: var(--text-color);
 }
 
-.email:hover,
-.email:focus {
-    color: var(--active-color);
-}
-
-.phone-number {
-    font-style: normal;
-    color: var(--main-color);
-}
-.phone-number:hover,
-.phone-number:focus {
-    color: var(--active-color);
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--pressed-state-color);
 }
 
 .modal-btn {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--white-color);
-    background: var(--vari-color);
-    border-radius: 4px;    
-    cursor: pointer;  
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background: var(--primary-brand-color);
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background: var(--active-color);
+  background: var(--pressed-state-color);
 }
 
 .main-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-color);
 }
 
 .bgr {
-    background: var(--title-color);
+  background: var(--dark-color);
 }
 
 .definition {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
 }
 
 .subtitle {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
-    color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
 
 .service-btn {
-
-    font-weight: 500;
-    line-height: 1.5;
-    display: flex;
-    letter-spacing: 0.04em;
-    color: var(--vari-color);
-    background: var(--dgr-servise-btn);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background: var(--light-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .service-btn:hover,
 .service-btn:focus {
-    color: var(--white-color);
-    background: var(--active-color);
+  color: var(--white-color);
+  background: var(--pressed-state-color);
 }
 
-.studio-logo-f {
-    color: var(--dgr-servise-btn);
+.studio-footer {
+  color: var(--light-color);
 }
 
-.text-footer { 
-    color: var(--border-color);
+.text-footer {
+  color: var(--accent-color);
 }
