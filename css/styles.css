@@ -14,6 +14,7 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--text-color);
+  background-color: var(--white-color);
 }
 
 ul {
@@ -93,14 +94,14 @@ ul {
 }
 
 .main-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--white-color);
 }
 
-.bgr {
+.hero {
   background: var(--dark-color);
+  text-align: center;
 }
 
 .definition {
@@ -111,11 +112,15 @@ ul {
 }
 
 .subtitle {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--dark-color);
+  text-align: center;
+}
+
+.footer {
+  background: var(--dark-color);
 }
 
 .studio-footer {
