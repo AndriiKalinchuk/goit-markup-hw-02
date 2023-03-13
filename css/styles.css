@@ -24,6 +24,7 @@ ul {
 .link {
   text-decoration: none;
 }
+/*HEADER*/
 
 .logotype {
   font-family: "Raleway", sans-serif;
@@ -63,6 +64,19 @@ ul {
   color: var(--pressed-state-color);
 }
 
+/*HERO*/
+
+.hero {
+  background: var(--dark-color);
+  text-align: center;
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-color);
+}
+
 .button {
   font-weight: 500;
   line-height: 1.5;
@@ -93,14 +107,13 @@ ul {
   background: var(--pressed-state-color);
 }
 
-.main-title {
-  font-size: 56px;
-  line-height: 1.07;
-  color: var(--white-color);
-}
+/*GOALS, GOALS ILLUSTRATIONS, TEAM PHOTO, PORTFOLIO*/
 
-.hero {
-  background: var(--dark-color);
+.subtitle {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--dark-color);
   text-align: center;
 }
 
@@ -111,13 +124,7 @@ ul {
   color: var(--dark-color);
 }
 
-.subtitle {
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  color: var(--dark-color);
-  text-align: center;
-}
+/*FOOTER*/
 
 .footer {
   background: var(--dark-color);
